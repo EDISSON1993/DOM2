@@ -1,0 +1,110 @@
+body{/*Cuerpo de la página*/
+
+    background-color: #F6DDCC;
+
+}
+
+header{/*Cabecera de la página*/
+
+    background-color: #A3E4D7;
+    margin-top: 11px;
+    margin-left: 7px;
+    border: solid 5px;
+    height: 255.5px;
+
+}
+
+.titulo{/*Titúlo 1 de la página*/
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 100px;
+    margin-top: 19px;
+    margin-left: -14px;
+   
+}
+
+.titulo2{/*Titúlo 2 de la página */
+
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 100px;
+    margin-top: -117px;
+    margin-left: -8px;
+
+}
+
+h1{/*Titulo del Form de la página*/
+
+    margin-top: 60px;
+    margin-left: 7px;
+
+}
+
+form{/*Formulario de la página*/
+    
+    margin-left: 7px;
+
+}
+
+input{/*Cuadro de escritura de la página*/
+
+    border: double 3px;
+
+}
+
+div{/*Div del 1 botón*/
+
+    margin-top: -21.9px;
+    margin-left: 295.5px;
+
+}
+
+.mover2{/*Botón 2 de la página*/
+ 
+    margin-left: 7.6px;
+    margin-top: 26px;
+    position: absolute;
+
+}
+
+.listaCuadrado{/*Lista que se agrega del form*/
+
+    list-style: square;
+    margin-top: 172px;
+    margin-left: 356.7px;
+    position: absolute;
+    
+}
+
+.cuadro{/*El div de la página*/
+    
+    width: 300px;
+    height: 288px;
+    border: double;
+    margin-top: 185.6px;
+    margin-left: 375px;
+    position: absolute;
+
+}
+
+h4{/*Titúlo de la lista del pie de página*/
+
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 600px;
+    margin-left: 17px;
+    margin-bottom: -2px;
+
+}
+
+.listaCirculo{/*Lista del pie de página*/
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    list-style:circle;
+    margin-bottom: 40px;
+
+}
+
+

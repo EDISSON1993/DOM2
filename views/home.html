@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+
         <meta charset="UTF-8">
         <title>Bienvenidxs a MercadoLiebre</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,14 +9,15 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         rel="stylesheet" />
         <script src="https://kit.fontawesome.com/997049d577.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/styles.css">
+        <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+        <link rel="stylesheet" href="/public/css/styles.css">
+        
     </head>
 
     <body>
         <header class = "top-header"> 
                 <div class = "logoybarra">
-                <img src="images/logo-mercado-liebre.svg" class = "logo">
+                <img src="/public/images/logo-mercado-liebre.svg" class = "logo">
                 <div class="form" action="#" method="GET">
                     <div class="input">Buscar productos, marcas y más<i class="fa fa-search"></i></div>
                   </i>
@@ -31,12 +33,12 @@
                 <div class = "menu_tienda">
                     <div class= "items_menu_tienda" ><a href="#">Ofertas</a></div>
                     <div class= "items_menu_tienda" ><a href="#">Tiendas Oficiales</a></div>
-                    <div class= "items_menu_tienda" ><a href="#">Vender</a></div>
+                    <div class= "items_menu_tienda" ><a href="ventas.html">Vender</a></div>
                     <div class= "items_menu_tienda" ><a href="#">Ayuda</a></div>
                 </div>
                 <div class = "menu_usuario">
-                    <div class="items_menu_tienda"><a href="./register">Creá tu cuenta<i class="fa-solid fa-credit-card"></i></a></div>
-                    <div class="items_menu_tienda"><a href="./login">Ingresá<i class="fa-solid fa-arrow-right-to-bracket"></i></a></div>
+                    <div class="items_menu_tienda"><a href="/views/register.html">Creá tu cuenta<i class="fa-solid fa-credit-card"></i></a></div>
+                    <div class="items_menu_tienda"><a href="/views/login.html">Ingresá<i class="fa-solid fa-arrow-right-to-bracket"></i></a></div>
                     <div class="items_menu_tienda"><a href="#">Mis compras<i class="fa-solid fa-cart-arrow-down"></i></a></div>
                 </div>
             </nav>
@@ -49,7 +51,7 @@
 
 
         <section>
-            <img src="images/img-home-banner.jpg" alt="Banner de ofertas" class="logobanner" >
+            <img src="/public/images/img-home-banner.jpg" alt="Banner de ofertas" class="logobanner" >
         </section>
 
         <main>
@@ -57,7 +59,7 @@
                 <h3>Basado en tu última visita</h3>
                 <div class = "listado">
                     <article>
-                        <img src="images/img-cafetera-moulinex.jpg" alt="Cafetera">
+                        <img src="/public/images/img-cafetera-moulinex.jpg" alt="Cafetera">
                         <div class="main-article">
                             <p class="precio">$6.770</p>
                             <p class="descuento">40% off</p>
@@ -67,7 +69,7 @@
                     </article>
 
                     <article>
-                        <img src="images/img-macbook-pro-2019.jpg" alt="MacBook">
+                        <img src="/public/images/img-macbook-pro-2019.jpg" alt="MacBook">
                         <div class="main-article">
                             <p class="precio">$230.000</p>
                             <p class="descuento">20% off</p>
@@ -77,7 +79,7 @@
                     </article>
 
                     <article>
-                        <img src="images/img-samsung-galaxy-s10.jpg" alt="Teléfono Móvil Samsung Galaxy">
+                        <img src="/public/images/img-samsung-galaxy-s10.jpg" alt="Teléfono Móvil Samsung Galaxy">
                         <div class="main-article">
                             <p class="precio">$70.500</p>
                             <p class="descuento">10% off</p>
@@ -87,22 +89,22 @@
                     </article>
 
                     <article>
-                        <img src="images/img-tv-samsung-smart.jpg" alt="SmartTv Samsung">
+                        <img src="/public/images/img-tv-samsung-smart.jpg" alt="SmartTv Samsung">
                         <div class="main-article">
                             <p class="precio">$23.200</p>
                             <p class="descuento">5% off</p>
                             <i class="fas fa-truck"></i>
                             <h4 class="descripcion">SmartTv Samsung 43"</h4>
                         </div>
-                    </article>                    
+                    </article>
                 </div>
             </section>
 
             <section>
-                <h3>Ofertas</h3>
+                <h3 Ofertas class= "ofertas">Ofertas</h3>
                 <div class = "listado">
                     <article>
-                        <img src="images/img-cafetera-moulinex.jpg" alt="Cafetera" class="product_img">
+                        <img src="/public/images/img-cafetera-moulinex.jpg" alt="Cafetera" class="product_img">
                         <div class="main-article">
                             <p class="precio">$6.770</p>
                             <p class="descuento">40% off</p>
@@ -112,7 +114,7 @@
                     </article>
 
                     <article>
-                        <img src="images/img-macbook-pro-2019.jpg" alt="MacBook">
+                        <img src="/public/images/img-macbook-pro-2019.jpg" alt="MacBook">
                         <div class="main-article">
                             <p class="precio">$230.000</p>
                             <p class="descuento">20% off</p>
@@ -122,7 +124,7 @@
                     </article>
 
                     <article>
-                        <img src="images/img-samsung-galaxy-s10.jpg" alt="Teléfono Móvil Samsung Galaxy">
+                        <img src="/public/images/img-samsung-galaxy-s10.jpg" alt="Teléfono Móvil Samsung Galaxy">
                         <div class="main-article">
                             <p class="precio"> $70.500</p>
                             <p class="descuento">10% off</p>
@@ -132,7 +134,7 @@
                     </article>
 
                     <article>
-                        <img src="images/img-tv-samsung-smart.jpg" alt="SmartTv Samsung">
+                        <img src="/public/images/img-tv-samsung-smart.jpg" alt="SmartTv Samsung">
                         <div class="main-article">
                             <p class="precio">$23.200</p>
                             <p class="descuento">5% off</p>
